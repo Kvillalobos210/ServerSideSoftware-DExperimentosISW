@@ -27,8 +27,12 @@ public class US18 {
 
     @When("complete su nombre de usuario y su contraseña")
     public void completeSuNombreDeUsuarioYSuContraseña() {
-        webDriver.findElement(By.xpath("//*[@id=\"mat-input-4\"]")).sendKeys("julissaponteT");
-        webDriver.findElement(By.xpath("//*[@id=\"mat-input-5\"]")).sendKeys("julissaponteT");
+        webDriver.findElement(By.xpath("/html/body/app-root/app-login/mat-card/form/mat-form-field[1]")).click();
+        webDriver.findElement(By.xpath("//*[@id=\"mat-input-0\"]")).sendKeys("julissaponteT");
+
+        webDriver.findElement(By.xpath("/html/body/app-root/app-login/mat-card/form/mat-form-field[2]")).click();
+        webDriver.findElement(By.xpath("//*[@id=\"mat-input-1\"]")).sendKeys("julissaponteT");
+
         webDriver.findElement(By.xpath("/html/body/app-root/app-login/mat-card/form/button")).click();
     }
 
@@ -39,8 +43,12 @@ public class US18 {
 
     @When("complete un nombre de usuario incorrecto y su contraseña")
     public void completeUnNombreDeUsuarioIncorrectoYSuContraseña() {
-        webDriver.findElement(By.xpath("//*[@id=\"mat-input-4\"]")).sendKeys("julissaponte");
-        webDriver.findElement(By.xpath("//*[@id=\"mat-input-5\"]")).sendKeys("julissaponteT");
+        webDriver.findElement(By.xpath("/html/body/app-root/app-login/mat-card/form/mat-form-field[1]")).click();
+        webDriver.findElement(By.xpath("//*[@id=\"mat-input-0\"]")).sendKeys("julissaponte");
+
+        webDriver.findElement(By.xpath("/html/body/app-root/app-login/mat-card/form/mat-form-field[2]")).click();
+        webDriver.findElement(By.xpath("//*[@id=\"mat-input-1\"]")).sendKeys("julissaponteT");
+
         webDriver.findElement(By.xpath("/html/body/app-root/app-login/mat-card/form/button")).click();
     }
 
@@ -51,8 +59,12 @@ public class US18 {
 
     @When("complete su nombre de usuario y una contraseña incorrecta")
     public void completeSuNombreDeUsuarioYUnaContraseñaIncorrecta() {
-        webDriver.findElement(By.xpath("//*[@id=\"mat-input-4\"]")).sendKeys("julissaponteT");
-        webDriver.findElement(By.xpath("//*[@id=\"mat-input-5\"]")).sendKeys("julissaponte");
+        webDriver.findElement(By.xpath("/html/body/app-root/app-login/mat-card/form/mat-form-field[1]")).click();
+        webDriver.findElement(By.xpath("//*[@id=\"mat-input-0\"]")).sendKeys("julissaponte");
+
+        webDriver.findElement(By.xpath("/html/body/app-root/app-login/mat-card/form/mat-form-field[2]")).click();
+        webDriver.findElement(By.xpath("//*[@id=\"mat-input-1\"]")).sendKeys("julissaponteT");
+
         webDriver.findElement(By.xpath("/html/body/app-root/app-login/mat-card/form/button")).click();
     }
 }

@@ -21,8 +21,12 @@ public class US18 {
         webElement.click();
 
         //Completa el formulario de Inicio de sesión
-        webDriver.findElement(By.xpath("//*[@id=\"mat-input-4\"]")).sendKeys("julissaponteT");
-        webDriver.findElement(By.xpath("//*[@id=\"mat-input-5\"]")).sendKeys("julissaponteT");
+        webDriver.findElement(By.xpath("/html/body/app-root/app-login/mat-card/form/mat-form-field[1]")).click();
+        webDriver.findElement(By.xpath("//*[@id=\"mat-input-0\"]")).sendKeys("julissaponteT");
+
+        webDriver.findElement(By.xpath("/html/body/app-root/app-login/mat-card/form/mat-form-field[2]")).click();
+        webDriver.findElement(By.xpath("//*[@id=\"mat-input-1\"]")).sendKeys("julissaponteT");
+
         webDriver.findElement(By.xpath("/html/body/app-root/app-login/mat-card/form/button")).click();
 
         //Home del Trabajador

@@ -23,10 +23,15 @@ public class US16 {
         WebElement webElement;
         webElement = webDriver.findElement(By.xpath("/html/body/app-root/app-landing/html/body/nav/a[5]"));
         webElement.click();
-        webDriver.findElement(By.xpath("//*[@id=\"mat-input-4\"]")).sendKeys("julissaponteT");
-        webDriver.findElement(By.xpath("//*[@id=\"mat-input-5\"]")).sendKeys("julissaponteT");
+
+        webDriver.findElement(By.xpath("/html/body/app-root/app-login/mat-card/form/mat-form-field[1]")).click();
+        webDriver.findElement(By.xpath("//*[@id=\"mat-input-0\"]")).sendKeys("julissaponteT");
+
+        webDriver.findElement(By.xpath("/html/body/app-root/app-login/mat-card/form/mat-form-field[2]")).click();
+        webDriver.findElement(By.xpath("//*[@id=\"mat-input-1\"]")).sendKeys("julissaponteT");
+
         webDriver.findElement(By.xpath("/html/body/app-root/app-login/mat-card/form/button")).click();
-        webDriver.findElement(By.xpath("/html/body/app-root/app-home-employee/div/div[1]/mat-toolbar")).isDisplayed();
+
         webDriver.findElement(By.xpath("/html/body/app-root/app-home-employee/app-header/div/mat-toolbar/mat-toolbar-row/div[1]/a[2]")).click();
     }
 
