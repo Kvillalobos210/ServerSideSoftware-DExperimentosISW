@@ -30,8 +30,10 @@ public class AppointmentControllerTest {
     Date dateD = new Date();
     Account account = new Account();
     District district = new District();
+
+    Specialty specialty = new Specialty();
     Customer customer = new Customer(1L, "Milagros", "Sotomayor", "78478541", "mili@hotmail.com", "998745247", account, district);
-    Employee employee = new Employee();
+    Employee employee = new Employee(1L, "Camilo", "Córdova", "78945124", "998745124", "cam@gmail.com", "1-1-2002",account,specialty,district);
     PaymentMethod paymentMethod = new PaymentMethod();
 
     Appointment appointment = new Appointment();
@@ -58,4 +60,27 @@ public class AppointmentControllerTest {
             mockMvc.perform(get("/api/appointments/searchByIdCustomer/1")).andExpect(status().isOk());
         }
     }
+
+//    US07: Como cliente quiero visualizar detalles de una cita para revisar los datos de la misma.
+    @Test
+    void AppointmentDetail() throws Exception{
+        List<Appointment> appointmentListP = appointmentService.findByStatus("pendiente");
+        if (appointmentList.get(1) == appointmentListP){
+            mockMvc.perform(get("/api/appointments/searchByStatus/pendiente")).andExpect(status().isOk());
+        }
+    }
+
+
+
+//    US12: Como trabajador quiero visualizar las solicitudes de trabajo para organizar mi tiempo de oficio.
+    @Test
+    void CheckEmployee() throws Exception{
+        List<Appointment> appointmentListP = appointmentService.findByIdEmployee(1L);
+        if (appointmentList.get(1) == appointmentListP){
+            mockMvc.perform(get("/api/appointments/searchByIdEmployee/1")).andExpect(status().isOk());
+        }
+    }
+
+
+
 }
