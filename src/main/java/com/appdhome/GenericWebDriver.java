@@ -8,7 +8,7 @@ public class GenericWebDriver {
 
     public static WebDriver getWebDriver(){
         if (webDriver == null){
-            String pathDriver = System.getProperty("user.dir") + "\\driver\\chromedriver_101.exe";
+            String pathDriver = System.getProperty("user.dir") + "\\driver\\chromedriver.exe";
             System.setProperty("webdriver.chrome.driver", pathDriver);
             webDriver = new ChromeDriver();
 
