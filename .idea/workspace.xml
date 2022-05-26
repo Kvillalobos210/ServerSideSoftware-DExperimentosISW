@@ -5,128 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bbc29ca-8cc5-450b-97b8-f7b97d5d4c54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/driver/msedgedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/appdhome/US10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/appdhome/cucumber/US10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US10.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_api_3_2_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_3_2_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_zerodep_3_2_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auto_auto_common_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auto_service_auto_service_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auto_service_auto_service_annotations_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_5_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_17_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_rnorth_duct_tape_duct_tape_1_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v100_4_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v101_4_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v85_4_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v99_4_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_json_4_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_testcontainers_1_17_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/appdhome/cucumber/US05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/appdhome/cucumber/US07.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_3_2_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_api_3_2_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_core_3_2_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_3_2_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_httpclient5_3_2_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_zerodep_3_2_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_jvm_deps_1_0_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_bonigarcia_webdrivermanager_5_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_5_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_client5_httpclient5_5_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_core5_httpcore5_5_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_core5_httpcore5_h2_5_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_64.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_64.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_brotli_dec_0_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_17_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_0_M1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_rnorth_duct_tape_duct_tape_1_0_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testcontainers_testcontainers_1_17_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_4_1_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_05_2022_15_33__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_05_2022_15_33__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appdhome.iml" beforeDir="false" afterPath="$PROJECT_DIR$/appdhome.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/appdhome/US16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appdhome/US16.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/appdhome/US18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appdhome/US18.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/appdhome/US19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appdhome/US19.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/appdhome/system/cucumberOptions/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/appdhome/TestRunner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/appdhome/system/features/US01.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US01.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/appdhome/system/features/US05.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US05.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/appdhome/system/features/US06.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US06.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/appdhome/system/features/US07.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US07.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/appdhome/system/features/US12.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US12.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/appdhome/system/features/US16.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US16.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/appdhome/system/features/US18.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US18.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/appdhome/system/features/US19.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US19.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/appdhome/system/stepDefinitions/US01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/appdhome/cucumber/US01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/appdhome/system/stepDefinitions/US06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/appdhome/cucumber/US06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/appdhome/system/stepDefinitions/US12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/appdhome/cucumber/US12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/appdhome/system/stepDefinitions/US16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/appdhome/cucumber/US16.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/appdhome/system/stepDefinitions/US18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/appdhome/cucumber/US18.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/appdhome/system/stepDefinitions/US19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/appdhome/cucumber/US19.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/DemoApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/GenericWebDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/US01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/US05.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/US06.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/US07.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/US12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/US16.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/US18.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/US19.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/controller/AccountController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/controller/AppointmentController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/controller/CityController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/controller/CustomerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/controller/DistrictController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/controller/EmployeeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/controller/PaymentMethodController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/controller/SpecialtyController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/entities/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/entities/Appointment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/entities/City.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/entities/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/entities/District.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/entities/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/entities/PaymentMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/entities/Specialty.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/repository/IAccountRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/repository/IAppointmentRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/repository/ICityRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/repository/ICustomerRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/repository/IDistrictRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/repository/IEmployeeRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/repository/IPaymentMethodRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/repository/ISpecialtyRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/services/CrudService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/services/IAccountService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/services/IAppointmentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/services/ICityService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/services/ICustomerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/services/IDistrictService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/services/IEmployeeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/services/IPaymentMethodService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/services/ISpecialtyService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/services/impl/AccountServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/services/impl/AppointmentServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/services/impl/CityServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/services/impl/CustomerServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/services/impl/DistrictServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/services/impl/EmployeeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/services/impl/PaymentMethodServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/services/impl/SpecialtyServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/util/Response.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/appdhome/util/SwaggerConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/appdhome/AppdhomeApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/appdhome/system/cucumberOptions/TestRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/appdhome/system/stepDefinitions/US01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/appdhome/system/stepDefinitions/US06.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/appdhome/system/stepDefinitions/US12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/appdhome/system/stepDefinitions/US16.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/appdhome/system/stepDefinitions/US18.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/appdhome/system/stepDefinitions/US19.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/appdhome/unit/service/AccountServiceImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/appdhome/unit/service/AppointmentServiceImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/appdhome/unit/service/CityServiceImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/appdhome/unit/service/CustomerServiceImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/appdhome/unit/service/DistrictServiceImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/appdhome/unit/service/EmployeeServiceImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/appdhome/unit/service/PaymentMethodsServiceImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/appdhome/unit/service/SpecialtyServiceImplTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +47,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -185,25 +89,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Study/UPC/Ciclos/Ciclo2022-01/DesignOfExperiments/Codes/ServerSideSoftware-DExperimentosISW/src/test/java/com/appdhome/cucumber",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "spring.configuration.checksum": "230b3dac305ea1e8c571c29a68eafd58"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Study/UPC/Ciclos/Ciclo2022-01/DesignOfExperiments/Codes/ServerSideSoftware-DExperimentosISW/src/test/java/com/appdhome/cucumber&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;230b3dac305ea1e8c571c29a68eafd58&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Study\UPC\Ciclos\Ciclo2022-01\DesignOfExperiments\Codes\ServerSideSoftware-DExperimentosISW\src\main\java\com\appdhome\resource" />
